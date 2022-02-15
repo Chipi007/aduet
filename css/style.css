@@ -84,16 +84,15 @@ h1,h2,h3,h4,h5,h6{
     height: 100%;
     overflow: hidden;
 }
-
 @font-face {
     font-family: 'Baskerville Old Face';
-    src: url('fonts/HelveticaNeueCyr-Light.ttf');
-    src: local("Baskerville Old Face"),
-    local("Baskerville Old Face"),
+    src: url('fonts/Baskerville Old Face.eot');
+    src: local('Baskerville Old Face'),
+    url('fonts/Baskerville Old Face.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Baskerville Old Face.woff') format('woff'),
+    url('fonts/Baskerville Old Face.woff2') format('woff2'),
     url('fonts/Baskerville Old Face.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
+  }
 /*-----------------------------------------------------------------------------------------------------------*/
 .page{
     margin: 50px;
