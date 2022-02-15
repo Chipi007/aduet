@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6{
 
 @font-face {
     font-family: 'Baskerville Old Face';
-    src: url('fonts/HelveticaNeueCyr-Light.eot');
+    src: url('fonts/HelveticaNeueCyr-Light.ttf');
     src: local("Baskerville Old Face"),
     local("Baskerville Old Face"),
     url('fonts/Baskerville Old Face.ttf') format('truetype');
