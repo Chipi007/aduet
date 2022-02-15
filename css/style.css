@@ -408,6 +408,11 @@ h1,h2,h3,h4,h5,h6{
         padding: 10px;
     }
 }
+@media(max-width: 768px){
+    .social__button{
+        border: 1px solid #000000;
+    }
+}
 @media(max-width: 401px){
     .social__button{
         padding: 7px;
